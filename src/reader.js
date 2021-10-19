@@ -65,7 +65,6 @@ async function handleRedirectAfterLogin() {
       
       document.getElementById("Pod1Name").value = podusername;
 
-      window.alert("Session is logged in")
       readMultiData();
     }
 }
@@ -78,8 +77,6 @@ handleRedirectAfterLogin();
 
 // 3. Read the Data
 async function readMultiData() {
-
-  window.alert("Running readMultiData")
 
   var contentPodUrl1;
   var contentPodUrl2;
